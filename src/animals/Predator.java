@@ -28,10 +28,12 @@ public class Predator extends Mammal {
     @Override
     public void go() {
         System.out.println("Перемещается шагом и бегом");
+
+    }
         public void hunting() {
             System.out.println("Охотится на других животных");
         }
-    }
+
         @Override
         public String toString() {
             return "Predator{" +

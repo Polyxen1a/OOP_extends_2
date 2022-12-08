@@ -5,16 +5,14 @@ import static animals.ValidateUtils.*;
 public final class Amphibians extends Animal {
 
 
-    public Amphibians(String name, int age, String livingEnvironment) {
+    public Amphibians(String name, int age, String livingEnvironment); {
         super(name, age, livingEnvironment);
-
     }
 
     @Override
     public void eat() {
         System.out.println("Питается насекомыми");
     }
-
             @Override
             public void sleep () {
                 System.out.println("Спит в воде");
