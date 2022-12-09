@@ -24,4 +24,6 @@ public abstract class Mammal extends  Animal {
         this.food = validateString(food, "any food");
     }
     public abstract void walk();
+
+    public abstract void hunting();
 }

@@ -1,9 +1,5 @@
 package animals;
 
-import static animals.ValidateUtils.*;
-
-import java.sql.SQLOutput;
-
 public class Predator extends Mammal {
 
     public Predator(String name, int age, String livingEnvironment, int movementSpeed, String food) {
@@ -28,8 +24,8 @@ public class Predator extends Mammal {
     @Override
     public void go() {
         System.out.println("Перемещается шагом и бегом");
-
     }
+    @Override
         public void hunting() {
             System.out.println("Охотится на других животных");
         }

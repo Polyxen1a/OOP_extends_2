@@ -25,7 +25,12 @@ public class NoFlying extends Bird {
     public void hunting() {
             System.out.println("Охотится на насекомых");
         }
-        @Override
+
+    @Override
+    public void toFly() {
+    }
+
+    @Override
         public String toString() {
             return "NoFlying{" +
                     "name= " + getName() +

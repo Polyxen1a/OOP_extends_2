@@ -56,7 +56,9 @@ public abstract class Animal {
             return Objects.hash(name, age, livingEnvironment);
 
         }
-    }
+
+    public abstract void hunting();
+}
 
 
 

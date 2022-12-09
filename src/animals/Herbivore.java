@@ -28,6 +28,11 @@ public class Herbivore extends Mammal {
         System.out.println("Гуляет");
     }
 
+    @Override
+    public void hunting() {
+
+    }
+
     public void pastiche() {
         System.out.println("Пасется");
     }
